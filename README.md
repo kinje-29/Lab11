@@ -1,3 +1,8 @@
+#### Nama   : Fajar Firmansyah
+#### Nim    : 312010309
+#### Kelas  : TI.20.A2
+
+
 # Praktikum 12:Framework Lanjutan (CRUD)
 
 
