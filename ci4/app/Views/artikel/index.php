@@ -15,4 +15,5 @@ else : ?>
     <h2>Belum Ada Data.</h2>
   </article>
 <?php endif; ?>
+<?= $this->include('template/box'); ?>
 <?= $this->include('template/footer'); ?>

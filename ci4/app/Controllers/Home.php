@@ -6,6 +6,10 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        return view('home',
+    [
+        'title' => 'Home',
+        'content' => 'Ini adalah halaman contact yang menjelaskan tentang isi halaman ini.'
+    ]);
     }
 }

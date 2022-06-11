@@ -11,8 +11,7 @@
     <p>
       <textarea name="isi" cols="50" rows="10"><?= $data['isi']; ?></textarea>
     </p>
-    <p>
-      <input type="submit" value="Kirim" class="btn btn-large">
-    </p>
+    <p><input type="submit" value="Kirim" class="btn btn-primary"></p>
+  </form>
 </div>
 </form> <?= $this->include('template/admin_footer'); ?>

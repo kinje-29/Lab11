@@ -159,6 +159,17 @@ Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 
 Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
 
+### Bagian Dirubah
+
+Merubah tampilan Dashbord yang sebelumnya menampilkan `id` dirubah dengan menampilkan nomor urut dengan looping 
+
+![tugas.png](img/tugas.png)
+
+Maka Hasilnya seperti berikut
+
+![tugas-1.png](img/tugas-1.png)
+
+
 # Laporan Praktikum
 1. Melanjutkan praktikum sebelumnya pada repository dengan nama Lab11Web.
 2. Kerjakan semua latihan yang diberikan sesuai urutannya.

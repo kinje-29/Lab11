@@ -266,3 +266,116 @@ padding: 8px 20px;
     background-color: #0e55a0;
     cursor: pointer;
 }
+
+
+/* About */
+
+
+.about1 .konten{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.konten img{
+    width: 250px;
+    margin-left: 40px;
+    border-radius: 50%;
+    /* box-shadow: 5px 0px 25px rgb(34,34,35); */
+}
+.konten h1{
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.konten h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+/* Kontak */
+
+.kontak{
+    line-height: 1;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+}
+
+.contak{
+    width: 200%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.contak .from-contak{
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.from-contak h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.from-contak .from-grup input{
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.from-contak hr{
+    margin-bottom: 10px;
+}
+
+.from-contak .from-grup textarea{
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.kirim-kontak{
+    width: 100%;
+    background-color: rgb(30, 0, 255);
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.kirim-kontak:hover{
+    background-color: #0e55a0;
+}
+
+/* Box Kontak */
+
+
+.kontak-box img{
+    width: 130px;
+    margin-left: 40px;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.kontak-box h2{
+    padding-bottom: -190px;
+}
+
+
+
+
+
+
+
+
+
+

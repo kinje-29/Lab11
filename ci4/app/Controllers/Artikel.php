@@ -79,7 +79,7 @@ class Artikel extends BaseController
     }
     $data = $artikel->where('id', $id)->first();
     $title = "Edit artikel";
-    return view('artikel/form_edit', compact('title','data'));
+    return view('artikel/form_edit', compact('title', 'data'));
   }
 
   // Delete
@@ -89,5 +89,4 @@ class Artikel extends BaseController
     $artikel->delete($id);
     return redirect('admin/artikel');
   }
-
 }
