@@ -371,6 +371,19 @@ padding: 8px 20px;
 }
 
 
+/* Bagian Artikel Index.php */
+
+.artikel_index h2,a{
+    text-decoration: none;
+    color: black;
+}
+
+.artikel_index h2,a:hover{
+    color: #0e55a0;
+}
+
+
+
 
 
 

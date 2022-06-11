@@ -161,7 +161,7 @@ Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan impr
 
 ### Bagian Dirubah
 
-Merubah tampilan Dashbord yang sebelumnya menampilkan `id` dirubah dengan menampilkan nomor urut dengan looping 
+* Merubah tampilan Dashbord yang sebelumnya menampilkan `id` dirubah dengan menampilkan nomor urut dengan looping 
 
 ![tugas.png](img/tugas.png)
 
@@ -169,6 +169,22 @@ Maka Hasilnya seperti berikut
 
 ![tugas-1.png](img/tugas-1.png)
 
+* Merubah Tampilan Artikel Yang sebelumnya Bagian judul berwarna biru di rubah dengan warna hitam dan menghilangkan garis bawah, dan ketika curous didekatkan ke dalam judul maka akan berubah warna menjadi biru.
+
+Pada bagian inde.php deberikan nama class baru dengan nama `class="artikel_index"`
+
+![tugas-2.png](img/tugas-2.png)
+
+Menambahakan css untuk index.php
+
+![tugas-3.png](img/tugas-3.png)
+
+`text-decoration: none;` untuk menghilangkan garis bawah pada link judul.
+`color: black;` Untuk memberikan warna pada text menjadi hitam
+
+`a:hover` dan  `color: #0e55a0;` ketika cursor mendekat ke bagian judul makan judul akan berubah menjadi biru.
+
+![tugas-4.png](img/tugas-4.png)
 
 # Laporan Praktikum
 1. Melanjutkan praktikum sebelumnya pada repository dengan nama Lab11Web.
