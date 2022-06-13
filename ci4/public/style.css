@@ -383,7 +383,35 @@ padding: 8px 20px;
 }
 
 
+/* Login */
 
+.login-wrapper{
+    width: 50%;
+    background-color: #eee8e8;
+    /* b5b5b5 */
+    margin: 70px 300px;
+}
+
+.login-wrapper h1{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+
+.login-wrapper hr{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.login-wrapper form{
+    width: 100%;
+    margin: 30px 30px;
+}
+
+.login-wrapper .mb-3{
+    padding: 20px 0px;
+}
 
 
 
