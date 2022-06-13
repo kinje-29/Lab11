@@ -387,6 +387,7 @@ padding: 8px 20px;
 
 .login-wrapper{
     width: 50%;
+    height: 400px;
     background-color: #eee8e8;
     /* b5b5b5 */
     margin: 70px 300px;
@@ -413,10 +414,34 @@ padding: 8px 20px;
     padding: 20px 0px;
 }
 
+.login-wrapper .alert{
+    padding: 0px 30px;
+    padding-bottom: 30px;
+}
 
+.login-wrapper input{
+    width: 90%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+.login-wrapper .btn{
+    margin-top: 20px;
+    width: 20%;
+    height: 30px;
+    background-color: rgb(50, 115, 212);
+    border: none;
+    font-size: 12pt;
+    color: white;
+}
 
-
+.login-wrapper .btn:hover{
+    background-color: #2466ac;
+    cursor: pointer;
+}
 
 
 

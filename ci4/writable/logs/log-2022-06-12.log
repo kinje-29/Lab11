@@ -1,0 +1,79 @@
+CRITICAL - 2022-06-12 22:50:59 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 22:52:19 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 22:53:07 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 22:54:10 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 22:58:24 --> Class "Config\App\Config\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 23:02:45 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 23:03:18 --> Auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-12 23:04:18 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 23:14:01 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 23:15:29 --> Class "Config\App\Filter\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 23:15:43 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 23:16:48 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-12 23:21:16 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\lab11_php_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\lab11_php_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\lab11_php_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}

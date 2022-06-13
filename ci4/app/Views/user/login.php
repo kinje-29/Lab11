@@ -13,11 +13,7 @@
   <div class="login-wrapper">
     <h1>Sign In</h1>
     <hr>
-    <?php if (session()->getFlashdata('flash_msg')) : ?>
-      <div class="alert alert-danger">
-        <?= session()->getFlashdata('flash_msg') ?>
-      </div>
-    <?php endif; ?>
+    
     <form action="" method="POST">
       <div class="mb-3">
         <label for="InputForEmail" class="form-label">Email Address</label>
@@ -29,6 +25,12 @@
       </div>
       <button type="submit" class="btn btn-primary">Login</button>
     </form>
+    
+    <?php if (session()->getFlashdata('flash_msg')) : ?>
+      <div class="alert alert-danger">
+        <?= session()->getFlashdata('flash_msg') ?>
+      </div>
+    <?php endif; ?>
   </div>
 </body>
 

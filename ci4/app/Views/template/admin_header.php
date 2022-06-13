@@ -12,6 +12,7 @@
     <header>
       <h1>Admin Portal Berita</h1>
     </header>
+    <!-- index.php/admin/artikel -->
     <nav>
       <a href="<?= base_url('index.php/admin/artikel'); ?>" class="active">Dashboard</a>
       <a href="<?= base_url('/'); ?>">Artikel</a>
