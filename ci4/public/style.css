@@ -443,5 +443,8 @@ padding: 8px 20px;
     cursor: pointer;
 }
 
+.login-wrapper a{
+    color:white;
+}
 
 

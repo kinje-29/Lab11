@@ -69,3 +69,53 @@ Selanjutnya buka url http://localhost:8080/user/login seperti berikut:
 
 Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama `Auth.php`
 pada direktori app/Filters. 
+
+![10.png](img/10.png)
+
+Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+
+![11.png](img/11.png)
+
+Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.
+
+![12.png](img/12.png)
+
+### Percobaan Akses Menu Admin
+
+Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut
+diakses maka, akan dimuculkan halaman login. 
+
+### Fungsi Logout
+
+Tambahkan method logout pada Controller User seperti berikut:
+
+![13.png](img/13.png)
+
+### Pertanyaan dan Tugas
+
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan
+improvisasi.
+
+#### Membuat Tombol Home pada bagian login
+
+pada bagian `views\user\login.php` tembahkan tombol untuk kembali ketampilan awal.
+
+![14.png](img/14.png)
+
+Tampilan
+
+![15.png](img/15.png)
+
+#### Membuat Tombol Logout
+
+Memberikan tombol logout pada bagian admin
+
+![16.png](img/16.png)
+
+Tampilan
+
+![17.png](img/17.png)
+
+
+
+

@@ -44,4 +44,9 @@ class User extends BaseController
       return redirect()->to('/user/login');
     }
   }
+  public function logout()
+  {
+    session()->destroy();
+    return redirect()->to('/user/login');
+  }
 }
