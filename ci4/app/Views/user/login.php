@@ -25,7 +25,7 @@
       </div>
       <div class="tombol">
         <button type="submit" class="btn btn-primary">Login</button>
-        <button class="btn btn-primary"><a href="<?= base_url('/'); ?>">Home</a></button>
+        <a href="<?= base_url('/'); ?>">Home</a>
 
       </div>
     </form>
