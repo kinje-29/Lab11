@@ -44,3 +44,40 @@ Untuk membuat pencarian data, buka kembali Controller Artikel, pada method
 admin_index ubah kodenya seperti berikut
 
 ![4.png](img/4.png)
+
+Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form
+pencarian sebelum deklarasi tabel seperti berikut:
+
+![5.png](img/5.png)
+
+Dan pada link pager ubah seperti berikut. 
+
+![6.png](img/6.png)
+
+Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata
+kunci tertentu pada form pencarian. Akses http://localhost:8080/index.php/admin/artikel
+
+![7.png](img/7.png)
+
+### Upload Gambar
+
+Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller
+Artikel, sesuaikan kode pada method add seperti berikut:
+
+![8.png](img/8.png)
+
+Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti
+berikut.
+
+![9.png](img/9.png)
+
+Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
+
+![10.png](img/10.png)
+
+Ujicoba file upload dengan mengakses menu tambah artikel. Akses http://localhost:8080/index.php/admin/artikel/add
+
+![11.png](img/11.png)
+
+
+

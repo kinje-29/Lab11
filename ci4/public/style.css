@@ -253,6 +253,11 @@ padding: 8px 20px;
     font-size: 11pt;
 }
 
+.add .file{
+    margin-bottom:20px ;
+    
+}
+
 
 .add input[type=submit]{
     padding: 10px 0px;
